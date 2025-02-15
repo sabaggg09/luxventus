@@ -4,3 +4,66 @@
     box-sizing: border-box;
     
 }
+
+
+.section1{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 1272px;
+    height: 559px;
+    gap: 22px;
+    background-image: url(./assets/pexels-andrea-piacquadio-994234\ 1.png);
+    border-radius: 20px;
+    padding-left: 57px;
+    padding-top: 218px;
+    padding-bottom: 141px;
+    padding-right: 588px;
+    margin-top: 65px;
+
+
+}
+
+
+.section1 h3{
+    font-size: 12px;
+    color:  #FFFFFF;
+    font-family: 'poppins', sans-serif;
+    font-family: Poppins;
+    font-weight: 700;
+    
+    line-height: 18px;
+    letter-spacing: 23%;
+
+    
+}
+
+
+.section1 h1{
+    font-weight: 400;
+    font-family: Poppins;
+    font-size: 46px;
+    line-height: 69px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+
+ 
+}
+
+.section1 span{
+    background: linear-gradient(90deg, #5fdcff, #26e1b9); /* Define your gradient */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.section1 p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    max-width: 494px;
+    color: #FFFFFF;
+
+}
