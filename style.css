@@ -6,6 +6,11 @@
     
 }
 
+body{
+    background-color: white;
+}
+
+
 
 .section1{
     margin: 0 auto;
@@ -21,6 +26,8 @@
     padding-bottom: 141px;
     padding-right: 588px;
     margin-top: 65px;
+    margin-left: 84px;
+
 
 
 }
@@ -101,6 +108,7 @@
     left: 800px;
     gap: 45px; 
     margin-top: 50px;
+    max-width: 1272px;
     
 }
 
@@ -131,6 +139,7 @@
     height: 49px;
     width: 234px;
 }
+
 
 
 .container-small{
@@ -266,3 +275,65 @@ text-align: center;
 
 
   }
+=======
+.topics h2{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    margin-left: 84px;
+    margin-top: 73px;
+    margin-bottom: 48px;
+}
+
+
+.lingerie{
+    display: flex;
+    flex-direction: column;
+    background-color:  #FFFFFF;
+    width: max-content;
+    align-items: center;
+    margin-left: 83px;
+    margin-top: 48px;
+    margin-right: 10px;
+    gap: 0px;
+    border-radius: 20px;
+
+
+}
+
+.lingerie img{
+    width: 88px;
+    height: 88px;
+    top: 900px;
+    left: 141px;
+}
+
+
+.lingerie h2{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+
+.lingerie h5{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 10px, 40px;
+    border-radius: 20px;
+    background-color: #4CE0D7;
+    margin: ;
+}
+
