@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
     
 }
 
@@ -16,7 +17,7 @@ body{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    max-width: 1272px;
+    
     height: 559px;
     gap: 22px;
     background-image: url(./assets/pexels-andrea-piacquadio-994234\ 1.png);
@@ -26,8 +27,9 @@ body{
     padding-bottom: 141px;
     padding-right: 588px;
     margin-top: 65px;
-    margin-left: 84px;
-
+    margin-left: 43px;
+    width: 1473px;
+    margin-right: 43px;
 
 
 }
@@ -109,7 +111,7 @@ body{
     gap: 45px; 
     margin-top: 50px;
     max-width: 1272px;
-    
+    margin-left: -54px;
 }
 
 .nav a , img {
@@ -141,6 +143,20 @@ body{
 }
 
 
+.topicsur{
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+    width: 100%;
+}
+
+
+
+
+
+
 .topics h2{
     font-family: Poppins;
     font-weight: 700;
@@ -156,14 +172,18 @@ body{
 .lingerie{
     display: flex;
     flex-direction: column;
-    background-color:  #FFFFFF;
+    background-color:  #ffffff86;
     width: max-content;
     align-items: center;
-    margin-left: 83px;
+    margin-left: 43px;
     margin-top: 48px;
     margin-right: 10px;
-    gap: 0px;
-    border-radius: 20px;
+    padding-left: 0px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    
+    
 
 
 }
@@ -176,7 +196,7 @@ body{
 }
 
 
-.lingerie h2{
+.lingerie h3{
     font-family: Poppins;
     font-weight: 700;
     font-size: 20px;
@@ -189,15 +209,25 @@ body{
 
 
 
-.lingerie h5{
+.lingerie a{
+    
     font-family: Poppins;
     font-weight: 700;
     font-size: 12px;
     line-height: 18px;
     letter-spacing: 0%;
     text-align: center;
-    padding: 10px, 40px;
-    border-radius: 20px;
-    background-color: #4CE0D7;
-    margin: ;
+    border-radius: 40px;
+    background-color: #5fdcff;
+    margin: 30px;
+    padding: 10px 40px;
+    color: #262626;
+    transition: 0.3s;
+    
+}
+
+
+.lingerie a:hover{
+    transform: scale(1.2)
+
 }
