@@ -1,0 +1,60 @@
+
+    .container {
+        width: 80%; 
+        max-width: 1200px; 
+        margin: 0 auto;
+        padding: 20px;
+        display: flex; 
+        justify-content: center; 
+        text-align: center; 
+    }
+    
+   
+
+
+
+
+    @media (min-width: 1600px) {
+        .topics {
+            display: flex;
+            justify-content: center; 
+            max-width: 1200px; 
+            margin: 0 auto;
+        }
+    }
+    
+
+    @media (min-width: 1600px) {
+        .pirveli {
+            display: flex;
+            justify-content: center; 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            align-items: center;
+        }
+    }
+
+
+
+
+
+    
+    @media (max-width: 1000px) {
+        .car{
+            display: flex;
+            justify-content: center; 
+            max-width: 1200px; 
+            margin: 0 auto;
+            align-items: center;
+
+        }
+         
+        body{
+            font-size: 50px;
+        }
+
+
+    }
+
+
+
